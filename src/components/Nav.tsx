@@ -1,4 +1,6 @@
 import { motion } from "framer-motion"
+import { Download } from "lucide-react"
+import resumePdf from "../assets/Shubham Resume word 28 feb.pdf"
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -23,18 +25,28 @@ export default function Nav() {
         >
           Shubham Agrawal
         </a>
-        <ul className="flex items-center gap-3 sm:gap-6">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-xs sm:text-sm text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="flex items-center gap-3 sm:gap-6">
+          <ul className="flex items-center gap-3 sm:gap-6">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-xs sm:text-sm text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href={resumePdf}
+            download="Shubham_Agrawal_Resume.pdf"
+            className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-[var(--color-accent)] text-[var(--color-bg)] text-xs sm:text-sm font-medium rounded-lg hover:opacity-90 transition-opacity shrink-0"
+          >
+            <Download className="w-4 h-4" />
+            <span className="hidden sm:inline">Resume</span>
+          </a>
+        </div>
       </div>
     </motion.nav>
   )

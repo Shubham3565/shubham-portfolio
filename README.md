@@ -6,6 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Here-0ea5e9?style=for-the-badge)](https://shubham3565.github.io/shubham-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham3565/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/shubham3565)
 [![Email](https://img.shields.io/badge/Email_Me-Get_in_Touch-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubham3565@gmail.com)
 
 ---

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Code2 } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -44,6 +44,15 @@ export default function Contact() {
           >
             <Linkedin className="w-5 h-5 flex-shrink-0" />
             <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://www.hackerrank.com/profile/shubham3565"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            <Code2 className="w-5 h-5 flex-shrink-0" />
+            <span>HackerRank</span>
           </a>
         </div>
         <div className="mt-8 pt-8 border-t border-[var(--color-border)]">
